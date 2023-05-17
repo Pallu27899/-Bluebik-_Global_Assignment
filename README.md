@@ -37,7 +37,7 @@ Endpoint: /api/debit
 
 Description: Debits a specified amount from the account balance for a given user.
 
-*    Request:
+   *     Request
 
 POST /api/debit
 Content-Type: application/json

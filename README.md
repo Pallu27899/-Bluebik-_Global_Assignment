@@ -9,7 +9,7 @@ Endpoint: /api/credit
 
 Description: Credits a specified amount to the account balance for a given user.
 
-Request: 
+      *  Request: 
 
 POST /api/credit
 Content-Type: application/json
@@ -21,7 +21,7 @@ Content-Type: application/json
 
 
 
-Response:
+     *    Response:
 
 HTTP/1.1 200 OK
 Content-Type: application/json
@@ -32,12 +32,12 @@ Content-Type: application/json
 }
 
 
-Debit API
+ *     Debit API
 Endpoint: /api/debit
 
 Description: Debits a specified amount from the account balance for a given user.
 
-Request:
+*    Request:
 
 POST /api/debit
 Content-Type: application/json
@@ -47,7 +47,7 @@ Content-Type: application/json
   "amount": 500
 }
 
-Response:
+*      Response:
 
 HTTP/1.1 200 OK
 Content-Type: application/json
